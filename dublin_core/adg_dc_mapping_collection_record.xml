@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- MAPPING AUF ARCHIVEBENE-->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-01-22T10:00:00Z</responseDate>
+    <request verb="GetRecord"
+        identifier="oai:oral-history.digital:collection-21894736"
+        metadataPrefix="oai_dc">https://portal.oral-history.digital</request>
+    
+    <GetRecord>
+        <record>
+            <!-- OAI-PMH Header -->
+            <header>
+                <identifier>oai:oral-history.digital:collection-21894736</identifier>
+                <!-- Datum, zu dem dieser Datensatz zuletzt aktualisiert / erstellt wurde -->
+                <datestamp>2025-01-22T09:59:00Z</datestamp>
+                <setSpec>archive:adg</setSpec>
+            </header>
+            <metadata>
+                <oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <!-- Identifier: Alle Locales ausgeben -->
+                    <dc:identifier xml:lang="de">https://portal.oral-history.digital/de/catalog/collections/21894736</dc:identifier>
+                    <dc:identifier xml:lang="en">https://portal.oral-history.digital/en/catalog/collections/21894736</dc:identifier>
+                    
+                    <!-- Title. Sammlungsname. Kann je nach Archiv in verschiedenen Sprachen sein. Weitere Sprachen nur ausgeben, wenn ausgefüllt? -->
+                    <dc:title xml:lang="de">Lebensgeschichte und Sozialkultur im Ruhrgebiet (LUSIR)</dc:title>
+                    <dc:title xml:lang="en">Life History and Social Culture in the Ruhr Area (LUSIR)</dc:title>
+                    
+                    <!-- Creator. Immer zweite Ebene. Fallback erste Ebene. Kann immer deutsch und/oder englisch sein. Englisch nur ausgeben, wenn ausgefüllt? -->
+                    <dc:creator xml:lang="de">Institut für Geschichte und Biographie der FernUniversität in Hagen</dc:creator>
+                    <dc:creator xml:lang="en">Institut für Geschichte und Biographie der FernUniversität in Hagen</dc:creator>
+                    
+                    <!-- Publisher. Bei Publisher erste Insitutionenebene nehmen. Kann immer deutsch und/oder englisch sein. Englisch nur ausgeben, wenn ausgefüllt? -->
+                    <dc:publisher xml:lang="de">FernUniversität in Hagen</dc:publisher>
+                    <dc:publisher xml:lang="en">FernUniversität in Hagen</dc:publisher>
+                    
+                    <!-- Date (publication year). Publication year in Zukunft von Archivinhaber manuell eintragen -->
+                    <dc:date>1234</dc:date>
+                    
+                    <!-- Contributors -->
+                    <dc:contributor>Almut Leh, Dennis Möbus (für die Sammlung), Lutz Niethammer, Alexander von Plato (für das Interview-Projekt)</dc:contributor>
+                    <dc:contributor xml:lang="de">FernUniversität in Hagen, Institut für Geschichte und Biographie der FernUniversität in Hagen</dc:contributor> <!-- Erste und zweite Ebene. Kann immer deutsch und/oder englisch sein. Englisch nur ausgeben, wenn ausgefüllt? -->
+                    <dc:contributor xml:lang="en">FernUniversität in Hagen, Institut für Geschichte und Biographie der FernUniversität in Hagen</dc:contributor>
+                    
+                    <!-- Resource Type -->
+                    <dc:type>audio</dc:type>
+                    
+                    <!-- Format -->
+                    <dc:format>audio/mp3</dc:format>
+                    
+                    <!-- Language -->
+                    <dc:language>ger</dc:language>
+                    
+                    <!-- Description (include sizes as part of description) -->
+                    <dc:description xml:lang="de">Das erste und dabei wohl immer noch umfangreichste Oral-History-Projekt in der Bundesrepublik Deutschland war das zu Beginn der 1980er Jahre unter Leitung von Lutz Niethammer durchgeführte Projekt "Lebensgeschichte und Sozialkultur im Ruhrgebiet 1930-1960", in dem es in einer Fülle von Einzelaspekten um Faschismuserfahrungen sowie um deren Verarbeitung und Bedeutung als Vorgeschichte der Nachkriegszeit ging. Gefördert von der Vokkswagenstiftung wurden zwischen 1980 und 1987 249 lebensgeschichtliche Interviews mit Personen aus dem Mittelstand und der Arbeiterschaft des Ruhrgebietes geführt, darunter eine große Zahl von Betriebsräten und Flüchtlingen. Die Interviews werden sukzessive online verfügbar gemacht. (Siehe auch das Nachfolgeprojekt "Einsetzung und Einpassung neuer Eliten im Ruhrgebiet nach 1945")
+                        Lutz Niethammer (Hg.): "Die Jahre weiß man nicht, wo man die heute hinsetzen soll." Faschismuserfahrungen im Ruhrgebiet, Berlin/Bonn 1983
+                        Lutz Niethammer (Hg.): "Hinterher merkt man, daß es richtig war, daß es schiefgegangen ist." Nachkriegserfahrungen im Ruhrgebiet, Berlin/Bonn 1983 
+                        Lutz Niethammer
+                        Alexander von Plato (Hg.): "Wir kriegen jetzt andere Zeiten." Auf der Suche nach der Erfahrung des Volkes in nachfaschistischen Ländern, Berlin/Bonn 1985 - Alexander von Plato, "Der Verlierer geht nicht leer aus." Betriebsräte geben zu Protokoll, Berlin/Bonn 1984</dc:description>
+                    
+                    <dc:description xml:lang="en">The first and still probably most extensive oral history project in the Federal Republic of Germany was the project "Lebensgeschichte und Sozialkultur im Ruhrgebiet 1930-1960" ("Life History and Social Culture in the Ruhr Area 1930-1960") conducted in the early 1980s under the guidance of Lutz Niethammer, which dealt in a wealth of individual aspects with experiences of fascism and their processing and significance as a prehistory of the postwar period. Funded by the Vokkswagen Foundation, 249 life history interviews were conducted between 1980 and 1987 with people from the middle class and working class in the Ruhr region, including a large number of works council members and refugees. The interviews are successively being made available online. (See also the follow-up project “ Installation and integration of new elites in the Ruhr area after 1945”)
+                        Lutz Niethammer (Hg.): "Die Jahre weiß man nicht, wo man die heute hinsetzen soll." Faschismuserfahrungen im Ruhrgebiet, Berlin/Bonn 1983
+                        Lutz Niethammer (Hg.): "Hinterher merkt man, daß es richtig war, daß es schiefgegangen ist." Nachkriegserfahrungen im Ruhrgebiet, Berlin/Bonn 1983 
+                        Lutz Niethammer und Alexander von Plato (Hg.): "Wir kriegen jetzt andere Zeiten." Auf der Suche nach der Erfahrung des Volkes in nachfaschistischen Ländern, Berlin/Bonn 1985 
+                        Alexander von Plato, "Der Verlierer geht nicht leer aus." Betriebsräte geben zu Protokoll, Berlin/Bonn 1984 </dc:description>
+                    
+                    <dc:description>169 Interviews</dc:description>
+                    <dc:description xml:lang="de">Mediendateien</dc:description>
+                    <dc:description xml:lang="de">Transkript</dc:description>
+                    <dc:description xml:lang="en">Media files</dc:description>
+                    <dc:description xml:lang="en">Transcript</dc:description>
+                    
+                    <!-- Subjects -->
+                    <dc:subject xml:lang="de">Alltag</dc:subject>
+                    <dc:subject xml:lang="de">Arbeit</dc:subject>
+                    <dc:subject xml:lang="de">Mehrheitsgesellschaft</dc:subject>
+                    <dc:subject xml:lang="de">Nationalsozialismus</dc:subject>
+                    <dc:subject xml:lang="de">Politik</dc:subject>
+                    <dc:subject xml:lang="de">Wirtschaft</dc:subject>
+                    <dc:subject xml:lang="en">Everyday life</dc:subject>
+                    <dc:subject xml:lang="en">Labor</dc:subject>
+                    <dc:subject xml:lang="en">Majority society</dc:subject>
+                    <dc:subject xml:lang="en">National socialism</dc:subject>
+                    <dc:subject xml:lang="en">Politics</dc:subject>
+                    <dc:subject xml:lang="en">Economy</dc:subject>
+                    
+                    <!-- Rights -->
+                    <!-- Bei Nutzungsbedingungen zum Archiv alle verfügbaren Sprachversionen -->
+                    <dc:rights xml:lang="de">https://deutsches-gedaechtnis.fernuni-hagen.de/de/conditions</dc:rights>
+                    <dc:rights xml:lang="en">https://deutsches-gedaechtnis.fernuni-hagen.de/en/conditions</dc:rights>
+                    <!-- Nutzungsbedingungen für OHD mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+                    <dc:rights xml:lang="de">https://portal.oral-history.digital/de/conditions</dc:rights>
+                    <dc:rights xml:lang="en">https://portal.oral-history.digital/en/conditions</dc:rights>
+                    <!-- Datenschutzbedingungen mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+                    <dc:rights xml:lang="de">https://portal.oral-history.digital/de/privacy_protection</dc:rights>
+                    <dc:rights xml:lang="en">https://portal.oral-history.digital/en/privacy_protection</dc:rights>
+                    
+                    <!-- Related Resources -->
+                    <dc:relation>portal.oral-history.digital</dc:relation>
+                    <dc:relation>https://portal.oral-history.digital/de/catalog/archives/21894736</dc:relation> 
+                    <dc:relation>https://www.fernuni-hagen.de/geschichteundbiographie/forschung/projekte/lebensgeschichte.shtml</dc:relation>
+                    <dc:relation>https://oai.example.org/provider?verb=ListRecords&amp;metadataPrefix=oai_datacite&amp;set=collection:21894736</dc:relation>
+                    
+                    <!-- Source (OAI identifier) -->
+                    <dc:source>oai:oral-history.digital:collection-21894736</dc:source>
+                </oai_dc:dc>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

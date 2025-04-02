@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- MAPPING AUF ARCHIVEBENE-->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ 
+    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-01-22T10:00:00Z</responseDate>
+    <request verb="GetRecord"
+        identifier="oai:oral-history.digital:adg"
+        metadataPrefix="oai_datacite">https://portal.oral-history.digital</request>
+    
+    <GetRecord>
+        <record>
+            <!-- OAI-PMH Header -->
+            <header>
+                <!-- Identifier im OAI-PMH-Kontext, z.B. oai:oral-history.digital:adg, oder: Die ID aus der URL nehmen, d.h. 21894736"  -->
+                <identifier>oai:oral-history.digital:adg</identifier>
+                <!-- Datum, zu dem dieser Datensatz zuletzt aktualisiert / erstellt wurde -->
+                <datestamp>2025-01-22T09:59:00Z</datestamp>
+                <setSpec>archives</setSpec>
+            </header>
+            
+            <!-- OAI-PMH-Metadatenblock, in dem das DataCite-XML steht -->
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-4"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-4
+                    https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">                 
+                    
+                    <!-- TITEL: Archivname. Kann je nach Archiv in verschiedenen Sprachen sein. Weitere Sprachen nur ausgeben, wenn ausgefüllt? -->
+                    <titles>
+                        <title xml:lang="de">Archiv „Deutsches Gedächtnis“</title>
+                        <title xml:lang="en">Archiv „Deutsches Gedächtnis“</title>
+                    </titles>
+                    
+                    <!-- CREATOR: Immer zweite Ebene. Fallback erste Ebene. Kann immer deutsch und/oder englisch sein. Deutsch ausgeben, englisch als Fallback -->
+                    <creators>
+                        <creator>
+                            <creatorName>Institut für Geschichte und Biographie der FernUniversität in Hagen</creatorName>
+                        </creator>
+                    </creators>
+                    
+                    <!-- PUBLISHER: Bei Publisher erste Insitutionenebene nehmen. Kann immer deutsch und/oder englisch sein. Deutsch ausgeben, englisch als Fallback -->
+                    <publisher>FernUniversität in Hagen</publisher>
+                    <!-- Publication year in Zukunft von Archivinhaber manuell eintragen -->
+                    <publicationYear>1234</publicationYear>
+                    
+                    <!-- CONTRIBUTORS: Projektleitung, Ansprechpartner, Kooperationspartner, -->
+                    <contributors>
+                        <contributor contributorType="ProjectLeader">
+                            <contributorName>Dr. Almut Leh</contributorName>
+                        </contributor>
+                        <contributor contributorType="ContactPerson">
+                            <contributorName>Dr. Dennis Möbus</contributorName>
+                        </contributor>
+                        <contributor contributorType="HostingInstitution"> <!-- Erste und zweite Ebene. Kann immer deutsch und/oder englisch sein. Deutsch ausgeben, Englisch als Fallback -->
+                            <contributorName>FernUniversität in Hagen, Institut für Geschichte und Biographie der FernUniversität in Hagen</contributorName>
+                        </contributor>
+                    </contributors>
+                    
+                    <!-- FUNDING REFERENCES: Gibt es bei ADG nicht, daher an der Stelle ein Dummy. Im Normalfall aber dann nicht ausgeben. Ist nur einsprachig. -->
+                    <fundingReferences>
+                        <fundingReference>
+                            <funderName>Stiftung XYZ</funderName>
+                        </fundingReference>
+                    </fundingReferences>
+                    
+                    <!-- RESOURCE TYPE (Audio/Video) -->
+                    <resourceType resourceTypeGeneral="Audiovisual">audio/video</resourceType>
+                    
+                    <!-- FORMAT (kann das ermittelt werden?)-->
+                    <formats>
+                        <format>video/mp4</format>
+                        <format>audio/mp3</format>
+                    </formats>
+                    
+                    <!-- SPRACHEN, die in den Interviews vorkommen. Wird in OHD dynamisch berechnet --> 
+                    <language>ger</language>
+                    
+                    <!-- SIZES (Umfang). 
+                        wird in OHD dymanisch berechnet -->
+                    <sizes>
+                        <size>1139 Interviews</size>
+                    </sizes>
+                    
+                    <!-- Subjects. Themen aus dem Themen-OHD-Register (Auswahl. ADG hat noch viel mehr). Wird dynamisch aus den Filtern ermittelt. Immer deutsch und englisch -->
+                    <subjects>                      
+                        <subject xml:lang="de">Alltag</subject>
+                        <subject xml:lang="de">Arbeit</subject>
+                        <subject xml:lang="de">Auswanderung</subject>
+                        <subject xml:lang="de">Besatzungsregime</subject>
+                        <subject xml:lang="de">Bildungswesen</subject>
+                        <subject xml:lang="de">Bombenkrieg</subject>
+                        <subject xml:lang="de">Eiserner Vorhang</subject>
+                        <subject xml:lang="de">Erinnerungskultur</subject>
+                        <subject xml:lang="en">Everyday life</subject>
+                        <subject xml:lang="en">Labor</subject>
+                        <subject xml:lang="en">Emigration</subject>
+                        <subject xml:lang="en">Occupation regime</subject>
+                        <subject xml:lang="en">Instructional systems</subject>
+                        <subject xml:lang="en">Bombing, Aerial</subject>
+                        <subject xml:lang="en">Iron Curtain</subject>
+                        <subject xml:lang="en">Cultural memory</subject>
+                    </subjects>
+                    
+                    <!-- RECHTE / NUTZUNGSBEDINGUNGEN -->
+                    <rightsList>
+                        <!-- Bei Nutzungsbedingungen zum Archiv alle verfügbaren Sprachversionen -->
+                        <rights xml:lang="de" rightsURI="https://deutsches-gedaechtnis.fernuni-hagen.de/de/conditions">
+                            Nutzungsbedingungen (Archiv Deutsches 'Deutsches Gedächtnis')
+                        </rights>
+                        <rights xml:lang="en" rightsURI="https://deutsches-gedaechtnis.fernuni-hagen.de/en/conditions">
+                            Terms of use (Archiv „Deutsches Gedächtnis)   
+                        </rights>
+                         <!-- Nutzungsbedingungen für OHD mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/conditions">
+                            Nutzungsbedingungen (Oral-History.Digital)
+                        </rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/conditions">
+                            Terms of use (Oral-History.Digital)
+                        </rights>
+                        <!-- Datenschutzbedingungen mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+                        <rights xml:lang="de" rightsURI= "https://portal.oral-history.digital/de/privacy_protection">
+                            Datenschutzrichtlinien
+                        </rights>
+                        <rights xml:lang="en" rightsURI= "https://portal.oral-history.digital/en/privacy_protection">
+                            Datenschutzrichtlinien
+                        </rights>
+                    </rightsList>
+                    
+                    <!-- BESCHREIBUNGEN -->
+                    <descriptions>
+                        <!-- ARCHIVBESCHREIBUNG (Abstract). Kann je nach Archiv in verschiedenen Sprachen sein. -->
+                        <description xml:lang="de" descriptionType="Abstract">
+                            Im Archiv „Deutsches Gedächtnis“ werden subjektive Erinnerungszeugnisse wie lebensgeschichtliche Interviews, Autobiographien, Tagebücher und Briefsammlungen ganz unterschiedlicher Menschen archiviert, die einen Bezug zu gesellschaftspolitischen Ereignissen in Deutschland bzw. zur deutschen Geschichte haben. Sie stammen sowohl aus dem In- als auch aus dem Ausland. Dementsprechend sind die Dokumente überwiegend in deutscher Sprache, jedes fünfte Interview allerdings in einer anderen Sprache.
+                            Die Interviews wurden seit den frühen 1980er-Jahren im Rahmen von zeitgeschichtlichen Forschungsprojekten des Instituts für Geschichte und Biographie und seiner Vorläuferprojekte geführt. Hinzu kommen biographische Interviews aus Forschungen Dritter unterschiedlicher Disziplinen, die ihre Sammlungen dem Archiv zur weiteren wissenschaftlichen Nutzung überlassen haben. 
+                            Hintergrund-Informationen finden Sie auf der begleitenden Webseite. Eine Anleitung bietet das Hilfe-Wiki. 
+                        </description>
+                        <description xml:lang="en" descriptionType="Abstract">
+                            The Archiv "Deutsches Gedächtnis" (Archive "German Memory") holds personal memories such as biographical interviews, autobiographies, diaries and collections of letters from different people who have a connection to socio-political events in Germany or to German history. They come from both Germany and abroad. Accordingly, the documents are predominantly in German, although every fifth interview is in another language.
+                            The interviews have been conducted since the early 1980s as part of research projects of the Institut für Geschichte und Biographie (Institute for History and Biography) and its predecessor projects. In addition, there are biographical interviews from research conducted by third parties from various disciplines who have donated their collections to the archive for further scientific use.
+                            Background information can be found on the accompanying website. A guide is provided in German in the help wiki. 
+                        </description>
+                        <!-- Erschließungsgrad (macht das hier Sinn?) -->
+                        <description xml:lang="de" descriptionType="TechnicalInfo">Mediendateien</description>
+                        <description xml:lang="de" descriptionType="TechnicalInfo">Transkript</description>
+                        <description xml:lang="en" descriptionType="TechnicalInfo">Media files</description>
+                        <description xml:lang="en" descriptionType="TechnicalInfo">Transcript</description>
+                    </descriptions>
+                    
+                    <!-- IDENTIFIER: deutsche locale ausgeben -->
+                    <identifier identifierType="URL">https://portal.oral-history.digital/de/catalog/archives/21894736</identifier> 
+                    
+                    <!-- RELATED IDENTIFIERS: Verweis auf Archivdomain, OHD-Portal, Projektwebseite und OAI-Set mit allen Interviews -->
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">
+                            https://deutsches-gedaechtnis.fernuni-hagen.de/ <!-- aus dem OHD-Feld Archivdomain -->
+                        </relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">
+                            portal.oral-history.digital
+                        </relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">
+                            https://deutsches-gedaechtnis.fernuni-hagen.de  <!-- aus dem OHD-Feld Projektwebseite. Ist bei ADG gleich mit Archivdomain -->
+                        </relatedIdentifier>
+                        <relatedIdentifier 
+                            relatedIdentifierType="URL" relationType="HasPart">                         
+                            https://oai.example.org/provider?verb=ListRecords&amp;metadataPrefix=oai_datacite&amp;set=archive:adg <!-- Verweis auf OAI-Set -->
+                        </relatedIdentifier>
+                    </relatedIdentifiers>
+                </resource>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>
+

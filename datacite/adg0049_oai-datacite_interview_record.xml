@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- MAPPING AUF INTERVIEWEBENE-->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ 
+    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2022-11-22T16:25:40Z</responseDate>
+    <request verb="GetRecord" 
+        identifier="oai:adg:adg0049" 
+        metadataPrefix="oai_datacite">
+        https://portal.oral-history.digital
+    </request>
+    
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:adg:adg0049</identifier>
+                <datestamp>2022-11-10T08:17:48Z</datestamp> <!-- Datum, zu dem dieser Datensatz zuletzt aktualisiert / erstellt wurde -->
+                <setSpec>archive:adg</setSpec>
+                <setSpec>collection:21894736</setSpec>
+            </header>
+            
+            <metadata>
+                <!-- Hier beginnt der DataCite-Record -->
+                <resource xmlns="http://datacite.org/schema/kernel-4"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://datacite.org/schema/kernel-4
+                    https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+                    
+                    <!-- TITEL. Immer deutsch und englisch -->
+                    <titles>
+                        <title xml:lang="de">Narratives Audio-Interview mit Inge W. vom 24.06.1982</title>
+                        <title xml:lang="en">Narrative audio interivew with Inge W from 24.06.1982</title>
+                    </titles>
+                    
+                    <!-- CREATOR  -->
+                    <creators>
+                        <creator>
+                            <creatorName>Inge W.</creatorName>                            
+                        </creator>
+                    </creators>
+                    
+                    <!-- PUBLISHER  -->
+                    <publisher>FernUniversität in Hagen</publisher>
+                    
+                    <!-- PUBLICATION YEAR. Manuell eingetragenes Veröffentlichungsdatum -->
+                    <publicationYear>1982</publicationYear>
+                    
+                    <!-- CONTRIBUTORS  -->
+                    <contributors>
+                        <contributor contributorType="HostingInstitution"> <!-- Erste und zweite Ebene. Kann immer deutsch und/oder englisch sein. Englisch nur ausgeben, wenn ausgefüllt? -->
+                            <contributorName>FernUniversität in Hagen, Institut für Geschichte und Biographie der FernUniversität in Hagen</contributorName>
+                        </contributor>
+                    </contributors>
+                    
+                    <!-- DATEN: Datum vom Interview.  -->
+                    <dates>
+                        <date dateType="Created">1982-06-24</date>
+                    </dates>
+                    
+                    <!-- TYP -->
+                    <resourceType resourceTypeGeneral="Audiovisual">audio</resourceType>
+                    
+                    <!-- FORMAT -->
+                    <formats>
+                        <format>audio/mp3</format>
+                    </formats>
+                    
+                    <!-- SIZES -->
+                    <sizes>
+                        <size>03h 40min</size>
+                    </sizes>
+                    
+                    <!-- SPRACHE (dc:language). "deu" -->
+                    <language>ger</language>
+                    
+                    <!-- SUBJECTS: Thema aus OHD Themenregister" -->
+                    <subjects>
+                        <subject xml:lang="de">Alltag</subject>
+                        <subject xml:lang="de">Arbeit</subject>
+                        <subject xml:lang="en">Everday life</subject>
+                        <subject xml:lang="en">Labor</subject>
+                    </subjects>
+
+                    <!-- RECHTE -->
+                    <rightsList>
+                        <!-- Bei Nutzungsbedingungen zum Archiv alle verfügbaren Sprachversionen -->
+                        <rights xml:lang="de" rightsURI="https://deutsches-gedaechtnis.fernuni-hagen.de/de/conditions">
+                            Nutzungsbedingungen (Archiv Deutsches 'Deutsches Gedächtnis')
+                        </rights>
+                        <rights xml:lang="en" rightsURI="https://deutsches-gedaechtnis.fernuni-hagen.de/en/conditions">
+                            Terms of use (Archiv „Deutsches Gedächtnis)   
+                        </rights>
+                        <!-- Nutzungsbedingungen für OHD mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/conditions">
+                            Nutzungsbedingungen (Oral-History.Digital)
+                        </rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/conditions">
+                            Terms of use (Oral-History.Digital)
+                        </rights>
+                        <!-- Datenschutzbedingungen mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+                        <rights xml:lang="de" rightsURI= "https://portal.oral-history.digital/de/privacy_protection">
+                            Datenschutzrichtlinien
+                        </rights>
+                        <rights xml:lang="en" rightsURI= "https://portal.oral-history.digital/en/privacy_protection">
+                            Datenschutzrichtlinien
+                        </rights>
+                        <rights xml:lang="de" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                            Metadaten-Lizenz: Attribution-NonCommercial-ShareAlike 4.0 International
+                        </rights>
+                        <rights xml:lang="en" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                            Metadata licence: Attribution-NonCommercial-ShareAlike 4.0 International
+                        </rights>
+                    </rightsList>              
+                    
+                    <!-- IDENTIFIER -->
+                    <identifier identifierType="URL">https://deutsches-gedaechtnis.fernuni-hagen.de/de/interviews/adg0049</identifier>
+                    
+                    <!-- Zugehörogkeit zum Archiv und Sammlung -->
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">
+                            https://portal.oral-history.digital/de/catalog/archives/21894736
+                        </relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">
+                            https://portal.oral-history.digital/de/catalog/collections/21894736                            
+                        </relatedIdentifier>
+                    </relatedIdentifiers>
+                    
+                </resource>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

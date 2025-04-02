@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- MAPPING AUF INTERVIEWEBENE-->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+	<responseDate>2022-11-22T16:25:40Z</responseDate>
+	<request verb="GetRecord" 
+		identifier="oai:adg:adg0049" 
+		metadataPrefix="oai_dc">
+		https://portal.oral-history.digital
+	</request>
+	<GetRecord>
+		<record>
+			<header>
+				<identifier>oai:adg:adg0049</identifier>
+				<datestamp>2022-11-10T08:17:48Z</datestamp>
+				<setSpec>archive:adg</setSpec>
+				<setSpec>collection:21894736</setSpec>
+			</header>
+			<metadata>
+				<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+					<dc:title xml:lang="de">Narratives Audio-Interview mit Inge W. vom 24.06.1982</dc:title>
+					<dc:title xml:lang="en">Narrative audio interivew with Inge W from 24.06.1982</dc:title>
+					<dc:creator>Inge W.</dc:creator>
+					<dc:publisher xml:lang="de">FernUniversität in Hagen</dc:publisher>
+					<dc:publisher xml:lang="en">FernUniversität in Hagen</dc:publisher>
+					<dc:contributor xml:lang="de">FernUniversität in Hagen, Institut für Geschichte und Biographie der FernUniversität in Hagen</dc:contributor>
+					<dc:contributor xml:lang="en">FernUniversität in Hagen, Institut für Geschichte und Biographie der FernUniversität in Hagen</dc:contributor>
+					<dc:date>24.06.1982</dc:date>
+					<dc:type>Interview</dc:type>
+					<dc:format>audio/mp3</dc:format>
+					<dc:identifier xml:lang="de">https://deutsches-gedaechtnis.fernuni-hagen.de/de/interviews/adg0049</dc:identifier>
+					<dc:identifier xml:lang="en">https://deutsches-gedaechtnis.fernuni-hagen.de/de/interviews/adg0049</dc:identifier>
+					<dc:language>deu</dc:language>
+					<dc:relation>Lebensgeschichte und Sozialkultur im Ruhrgebiet</dc:relation>
+					<!-- Bei Nutzungsbedingungen zum Archiv alle verfügbaren Sprachversionen -->
+					<dc:rights xml:lang="de">https://deutsches-gedaechtnis.fernuni-hagen.de/de/conditions</dc:rights>
+					<dc:rights xml:lang="en">https://deutsches-gedaechtnis.fernuni-hagen.de/en/conditions</dc:rights>
+					<!-- Nutzungsbedingungen für OHD mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+					<dc:rights xml:lang="de">https://portal.oral-history.digital/de/conditions</dc:rights>
+					<dc:rights xml:lang="en">https://portal.oral-history.digital/en/conditions</dc:rights>
+					<!-- Datenschutzbedingungen mindestens in deutsch und englisch. Wenn es noch Locales in weiteren Sprachen gibt, dann auch diese -->
+					<dc:rights xml:lang="de">https://portal.oral-history.digital/de/privacy_protection</dc:rights>
+					<dc:rights xml:lang="en">https://portal.oral-history.digital/en/privacy_protection</dc:rights>
+					<dc:rights xml:lang="de">CC-BY-4.0 (Metadaten-Lizenz)</dc:rights>
+					<dc:rights xml:lang="en">CC-BY-4.0 (metadata license)</dc:rights>
+				</oai_dc:dc>
+			</metadata>
+		</record>
+	</GetRecord>
+</OAI-PMH>

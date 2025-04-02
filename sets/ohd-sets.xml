@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ 
+    http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-01-24T10:40:50Z</responseDate>
+    <request>
+        https://portal.oral-history.digital{"verb"=>"ListSets"}
+    </request>
+    <ListSets>
+        <!-- Archive -->
+        <set>
+            <setSpec>archive:adg</setSpec>
+            <setName>Interview-Archiv: Archiv "Deutsches Gedächtnis"</setName>
+        </set>
+        <set>
+            <setSpec>archive:bwa-s</setSpec>
+            <setName>Interview-Archiv: Sammlung der Gedenkstätte Buchenwald</setName>
+        </set>
+        <set>
+            <setSpec>archive:fzh-wde</setSpec>
+            <setName>Interview-Archiv: Werkstatt der Erinnerung</setName>
+        </set>
+        <set>
+            <setSpec>archive:bolsa</setSpec>
+            <setName>Interview-Archiv: Bonner Längsschnittstudie des Alterns (BOLSA)</setName>
+        </set>
+        <!-- weitere Archive -->
+        <!-- Sammlungen -->
+        <set>
+            <setSpec>collection:21894736</setSpec>
+            <setName>Lebensgeschichte und Sozialkultur im Ruhrgebiet (LUSIR)</setName>
+        </set>
+        <!-- weitere Sammlungen -->
+        <!-- Beschreibungen alles Archive und Sammlungen -->
+        <set>
+            <setSpec>archives</setSpec>
+            <setName>Beschreibungen aller im Portal hinterlegten Archive</setName>
+        </set>
+        <set>
+            <setSpec>collections</setSpec>
+            <setName>Beschreibungen aller im Portal hinterlegten Sammlungen</setName>
+        </set>
+    </ListSets>
+</OAI-PMH>

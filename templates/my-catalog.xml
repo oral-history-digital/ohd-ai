@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" 
+    "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="https://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" uri="/Users/peterkompiel/Desktop/ADG Text+ Mapping/OAI-PMH.xsd.xml"/>
+    <uri name="https://schema.datacite.org/meta/kernel-4.6/metadata.xsd" uri="/Users/peterkompiel/Desktop/ADG Text+ Mapping/OAI-PMH.xsd.xml"/>
+</catalog>
