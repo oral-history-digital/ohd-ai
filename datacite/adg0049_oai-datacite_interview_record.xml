@@ -27,6 +27,9 @@
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xsi:schemaLocation="http://datacite.org/schema/kernel-4
                     https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+
+                    <!-- IDENTIFIER -->
+                    <identifier identifierType="URL">https://deutsches-gedaechtnis.fernuni-hagen.de/de/interviews/adg0049</identifier>
                     
                     <!-- TITEL. Immer deutsch und englisch -->
                     <titles>
@@ -113,9 +116,6 @@
                             Metadata licence: Attribution-NonCommercial-ShareAlike 4.0 International
                         </rights>
                     </rightsList>              
-                    
-                    <!-- IDENTIFIER -->
-                    <identifier identifierType="URL">https://deutsches-gedaechtnis.fernuni-hagen.de/de/interviews/adg0049</identifier>
                     
                     <!-- Zugehörogkeit zum Archiv und Sammlung -->
                     <relatedIdentifiers>

@@ -28,6 +28,9 @@
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xsi:schemaLocation="http://datacite.org/schema/kernel-4
                     https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+
+                    <!-- IDENTIFIER: deutsche locale ausgeben -->
+                    <identifier identifierType="URL">https://portal.oral-history.digital/de/catalog/collections/21894736</identifier>
                     
                     <!-- TITEL: Sammlungsname. Kann je nach Archiv in verschiedenen Sprachen sein. Weitere Sprachen nur ausgeben, wenn ausgefüllt? -->
                     <titles>
@@ -138,9 +141,6 @@
                         <description xml:lang="en" descriptionType="TechnicalInfo">Media files</description>
                         <description xml:lang="en" descriptionType="TechnicalInfo">Transcript</description>
                     </descriptions>
-                    
-                    <!-- IDENTIFIER: deutsche locale ausgeben -->
-                    <identifier identifierType="URL">https://portal.oral-history.digital/de/catalog/collections/21894736</identifier>
 
                     
                     <!-- RELATED IDENTIFIERS: OHD-Portal, Projektwebseite und OAI-Set mit allen Interviews -->
