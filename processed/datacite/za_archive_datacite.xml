@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-04-14T12:10:25Z</responseDate>
+    <request identifier="oai:oral-history.digital:za" metadataPrefix="oai_datacite" verb="GetRecord">https://portal.oral-history.digital</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:oral-history.digital:za</identifier>
+                <datestamp>2025-04-14T10:32:42Z</datestamp>
+                <setSpec>archives</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-4"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd "> <!-- falsche DataCite-Version. Bitte diese nutzen: http://schema.datacite.org/meta/kernel-4.6/metadata.xsd -->
+                    <identifier>oai:oral-history.digital:za</identifier> <!-- Ich hätte den Identifier vom Header nicht nochmal unter Ressource gepackt. Der primäre Identifier sollte dann eher die DOI oder die primäre Sprache des Archivs sein -->
+                    <!-- <alternateIdentifiers>  --> <!-- Container-Element fehlt -->
+                        <alternateIdentifier xml:lang="de" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/de</alternateIdentifier> <!-- xml:lang="de" liefert Validierungsfehler. Mehrsprachigkeit nicht vorgesehen. Dann einfach beides angeben nur ohne.  -->
+                        <alternateIdentifier xml:lang="en" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/en</alternateIdentifier> <!-- Außerdem: alternateIdentifierType anstatt identfierType-->
+                    <!-- </alternateIdentifiers> -->
+                    <titles>
+                        <title xml:lang="de">Interview-Archiv „Zwangsarbeit 1939-1945“</title>
+                        <title xml:lang="en">Interview Archive „Forced Labor 1939-1945“</title> <!-- in ZWAR auch ein russicher Titel vorhanden, also auch ergänzen. Titel aus allen Locales sollten hier auftauchen -->
+                    </titles>
+                    <creators>
+                        <creator>
+                            <creatorName>Universitätsbibliothek der Freien Universität Berlin</creatorName>
+                        </creator>
+                    </creators>
+                    <publisher xml:lang="de">Universitätsbibliothek der Freien Universität Berlin</publisher> <!-- Hier die oberste Institutionsebene anwenden -->
+                    <publisher xml:lang="en">University Library of Freie Universität Berlin</publisher> <!-- verschiedene Sprachen sind bei Datacite an der Stelle wohl nicht vorgesehen. Hatte da einen Validierungsfehler. Rausnehmen und nur die Primärsprache stehen lassen-->
+                    
+                    <!-- Publication Year fehlt -->
+                    
+                    <contributors>
+                        <contributor contributorType="ProjectLeader">
+                            <contributorName>Dr. Dennis Mischke</contributorName>
+                        </contributor>
+                        <contributor contributorType="ContactPerson">
+                            <contributorName>Verena Nägel</contributorName>
+                        </contributor>
+                        <contributor contributorType="HostingInstitution">
+                            <contributor xml:lang="de">Universitätsbibliothek der Freien Universität Berlin</contributor> <!-- erste und zweite Institutionsebene -->
+                            <contributor xml:lang="en">University Library of Freie Universität Berlin</contributor> <!-- nur due Primärsprache angeben -->
+                        </contributor>
+                    </contributors>
+                    
+                    <!-- funding references fehlen -->
+                    
+                    <resourceType resourceTypeGeneral="Audiovisual">audio/video</resourceType>
+                    <formats>
+                        <format>video/mp4</format>
+                        <format>audio/mp3</format>
+                    </formats>
+                    <sizes>
+                        <size>590 Interviews</size>
+                    </sizes>
+                    <language>ger</language>
+                    <language>ita</language>
+                    <language>eng</language>
+                    <language>dut</language>
+                    <language>fre</language>
+                    <language>rus</language>
+                    <language>bos</language>
+                    <language>bul</language>
+                    <language>cze</language>
+                    <language>heb</language>
+                    <language>hrv</language>
+                    <language>hun</language>
+                    <language>lav</language>
+                    <language>lit</language>
+                    <language>mac</language>
+                    <language>nor</language>
+                    <language>pol</language>
+                    <language>rum</language>
+                    <language>slo</language>
+                    <language>slv</language>
+                    <language>srp</language>
+                    <language>ukr</language>
+                    <language>rom</language>
+                    <language>spa</language>
+                    <language>cat</language>
+                    <language>ukr-rus</language>
+                    <subjects>
+                        <subject xml:lang="de">Nationalsozialismus</subject>
+                        <subject xml:lang="en">National socialism</subject>
+                        <subject xml:lang="de">Zwangsarbeit</subject>
+                        <subject xml:lang="en">Forced labor</subject>
+                        <subject xml:lang="de">Zweiter Weltkrieg</subject>
+                        <subject xml:lang="en">World War II</subject>
+                        <subject xml:lang="de">Judenverfolgung und Holocaust</subject>
+                        <subject xml:lang="en">Jews Persecutions and Holocaust</subject>
+                        <subject xml:lang="de">Sinti und Roma</subject>
+                        <subject xml:lang="en">Sinti und Roma</subject>
+                        <subject xml:lang="de">Konzentrationslager</subject>
+                        <subject xml:lang="en">Concentration camp</subject>
+                        <subject xml:lang="de">Auswanderung</subject>
+                        <subject xml:lang="en">Emigration </subject>
+                    </subjects>
+                    <rightsList>
+                        <rights xml:lang="de" rightsURI="https://archiv.zwangsarbeit-archiv.de/de/conditions">Nutzungsbedingungen (Interview-Archiv „Zwangsarbeit 1939-1945“)</rights>
+                        <rights xml:lang="en" rightsURI="https://archiv.zwangsarbeit-archiv.de/de/conditions">Terms of use (Interview Archive „Forced Labor 1939-1945“)</rights>
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/conditions">Nutzungsbedingungen (Oral-History.Digital)</rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/conditions">Terms of use (Oral-History.Digital)</rights>
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/privacy_protection">Datenschutz</rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/privacy_protection">Privacy Policy</rights>
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/privacy_protection">Datenschutz</rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/privacy_protection">Privacy Policy</rights> <!-- Datenschutzhinweise auf englisch und deutsch doppelt-->
+                    </rightsList>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://archiv.zwangsarbeit-archiv.de</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">https://portal.oral-history.digital</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://zwangsarbeit-archiv.de</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://portal.oral-history.digital/de/oai_repository?verb=ListRecords&amp;metadataPrefix=oai_datacite&amp;set=archive:za</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <descriptions> <!-- andere Reihenfolde: Erst die Descriptions in allen Sprachen und dann die Technical Info . Bei ZWAR fehlt für die Description noch russisch-->
+                        <description xml:lang="de" descriptionType="Abstract">Knapp 600 ehemalige Zwangsarbeiterinnen und Zwangsarbeiter aus 26 Ländern erzählen ihre Lebensgeschichte in ausführlichen Audio- und Video-Interviews. Nach einer Registrierung können Sie die vollständigen Interviews anhören, Transkripte und Übersetzungen durchsuchen, Inhaltsverzeichnisse und Anmerkungen, Fotos und Kurzbiografien ansehen. Auf der begleitenden Webseite finden Sie weitere Informationen zur Entstehung des Archivs und zur Geschichte der NS-Zwangsarbeit. 
+Um Zugang zu den vollständigen Interviews zu erhalten, ist eine Registrierung in Oral-History.Digital und eine Freischaltung für das Archiv notwendig.</description>
+                        <description xml:lang="de" descriptionType="TechnicalInfo">Mediendateien</description>
+                        <description xml:lang="de" descriptionType="TechnicalInfo">Transkript</description>
+                        <description xml:lang="en" descriptionType="Abstract">Nearly 600 former forced laborers from 26 countries tell their life stories in detailed audio and video interviews. After registering in the interview archive, you can search and listen to the complete testimonies, coming with transcripts, German translations, photos, short biographies, tables of contents and annotations. 
+On the accompanying project website you will find further information on the creation of the archive and on the history of Nazi forced labor. 
+To access the complete interviews, it is necessary to register in Oral-History.Digital and to apply for activation of the archive.</description>
+                        <description xml:lang="en" descriptionType="TechnicalInfo">Media files</description>
+                        <description xml:lang="en" descriptionType="TechnicalInfo">Transcript</description>
+                    </descriptions> <!-- funding references nach oben ziehen -->
+                    <fundingReferences>
+                        <fundingReference>
+                            <funderName>Stiftung 'Erinnerung, Verantwortung und Zukunft'</funderName>
+                        </fundingReference>
+                    </fundingReferences>
+                </resource>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

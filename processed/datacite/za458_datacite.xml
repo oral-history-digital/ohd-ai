@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2025-04-14T10:20:32Z</responseDate>
+    <request identifier="oai:za:za458" metadataPrefix="oai_datacite" verb="GetRecord">https://portal.oral-history.digital</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:za:za458</identifier>
+                <datestamp>2025-04-09T11:09:53Z</datestamp>
+                <setSpec>archive:za</setSpec>
+                <setSpec>collection:90408857</setSpec>
+            </header>
+            <metadata>
+                <resource xmlns="http://datacite.org/schema/kernel-4"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd "> <!-- falsche DataCite-Version. Bitte diese nutzen: http://schema.datacite.org/meta/kernel-4.6/metadata.xsd -->
+                    <identifier>oai:za:za458</identifier> <!-- Ich hätte den Identifier vom Header nicht nochmal unter Ressource gepackt. Der primäre Identifier sollte dann eher die DOI oder die primäre Sprache des Archivs sein -->
+                    <!-- <alternateIdentifiers>  --> <!-- Container-Element fehlt -->
+                        <alternateIdentifier xml:lang="de" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/de/interviews/za458</alternateIdentifier> <!-- xml:lang="de" liefert Validierungsfehler. Mehrsprachigkeit nicht vorgesehen. Dann einfach beides angeben nur ohne.  -->
+                        <alternateIdentifier xml:lang="en" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/en/interviews/za458</alternateIdentifier> <!-- Außerdem: alternateIdentifierType anstatt identfierType-->
+                        <alternateIdentifier identfierType="DOI">10.17169/za.za458</alternateIdentifier>
+                    <!-- </alternateIdentifiers> -->
+                    <titles>
+                        <title xml:lang="de">Narratives video-Interview mit René Š. vom 13.07.2005</title>
+                        <title xml:lang="en">Narrative video interview with René Š. from 13.07.2005</title>
+                    </titles>
+                    <creators>
+                        <creator>
+                            <creatorName>René Š.</creatorName>
+                            <givenName>René</givenName> <!-- War in meinem Template nicht vorgesehen, aber why not -->
+                        </creator>
+                    </creators>
+                    <publisher xml:lang="de">Universitätsbibliothek der Freien Universität Berlin</publisher> <!-- Hier die oberste Institutionsebene anwenden -->
+                    <publisher xml:lang="en">University Library of Freie Universität Berlin</publisher> <!-- verschiedene Sprachen sind bei Datacite an der Stelle wohl nicht vorgesehen. Hatte da einen Validierungsfehler. Rausnehmen -->
+
+                    <!-- Publication Year fehlt -->
+
+                    <contributors>
+                        <contributor contributorType="DataCollector">  <!-- eigentlich an der Stelle nicht vorgesehen. Aber kann man vielleicht auch drin lassen -->
+                            <contributorName>Stiftung 'Erinnerung, Verantwortung und Zukunft' (Kooperationspartner)</contributorName>
+                        </contributor>
+                        <contributor contributorType="ProjectLeader"> <!-- eigentlich an der Stelle nicht vorgesehen. Aber kann man vielleicht auch drin lassen -->
+                            <contributorName>Dr. Dennis Mischke</contributorName>
+                        </contributor>
+                        <contributor contributorType="ProjectManager"> <!-- eigentlich an der Stelle nicht vorgesehen. Aber kann man vielleicht auch drin lassen -->
+                            <contributorName>Verena Nägel</contributorName>
+                        </contributor>
+                        <contributor contributorType="HostingInstitution"> <!-- Erste und zweite Ebene -->
+                            <contributorName>Universitätsbibliothek der Freien Universität Berlin</contributorName>
+                        </contributor>
+                    </contributors>
+                    <dates>
+                        <date dateType="Created">13.07.2005</date> <!-- Format muss sein YYYY-MM-DD, also 2005-07-13-->
+                    </dates>
+                    <resourceType resourceTypeGeneral="Audiovisual">video</resourceType>
+                    <formats>
+                        <format>video/mp4</format>
+                    </formats>
+                    <sizes>
+                        <size>03 h 57 min</size>
+                    </sizes>
+                    <language>cze</language>
+                    <subjects>
+                        <subject xml:lang="de">Nationalsozialismus</subject>
+                        <subject xml:lang="en">National socialism</subject>
+                        <subject xml:lang="de">Zwangsarbeit</subject>
+                        <subject xml:lang="en">Forced labor</subject>
+                        <subject xml:lang="de">Zweiter Weltkrieg</subject>
+                        <subject xml:lang="en">World War II</subject>
+                    </subjects>
+                    <rightsList>
+                        <rights xml:lang="de" rightsURI="https://archiv.zwangsarbeit-archiv.de/de/conditions">Nutzungsbedingungen (Interview-Archiv „Zwangsarbeit 1939-1945“)</rights>
+                        <rights xml:lang="en" rightsURI="https://archiv.zwangsarbeit-archiv.de/de/conditions">Terms of use (Interview Archive „Forced Labor 1939-1945“)</rights>
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/conditions">Nutzungsbedingungen (Oral-History.Digital)</rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/conditions">Terms of use (Oral-History.Digital)</rights>
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/privacy_protection">Datenschutz</rights> <!-- Datenschutzhinweise auf englisch und deutsch doppelt-->
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/privacy_protection">Privacy Policy</rights>
+                        <rights xml:lang="de" rightsURI="https://portal.oral-history.digital/de/privacy_protection">Datenschutz</rights>
+                        <rights xml:lang="en" rightsURI="https://portal.oral-history.digital/en/privacy_protection">Privacy Policy</rights>
+                        <rights xml:lang="de" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by-nc-sa/4.0/">Metadaten-Lizenz: Attribution-NonCommercial-ShareAlike 4.0 International</rights>
+                        <rights xml:lang="en" rightsIdentifier="CC-BY-4.0" rightsURI="https://creativecommons.org/licenses/by-nc-sa/4.0/">Metadata licence: Attribution-NonCommercial-ShareAlike 4.0 International</rights>
+                    </rightsList>
+                    <relatedIdentifiers>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">https://portal.oral-history.digital/de/catalog/archives/90408823</relatedIdentifier>
+                        <relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">https://portal.oral-history.digital/de/catalog/collections/90408857</relatedIdentifier>
+                    </relatedIdentifiers>
+                    <fundingReferences>
+                        <fundingReference>
+                            <funderName>Stiftung 'Erinnerung, Verantwortung und Zukunft'</funderName>
+                        </fundingReference>
+                    </fundingReferences>
+                </resource>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>
