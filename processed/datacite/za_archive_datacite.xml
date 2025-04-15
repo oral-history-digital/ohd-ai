@@ -13,7 +13,7 @@
             <metadata>
                 <resource xmlns="http://datacite.org/schema/kernel-4"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd "> <!-- falsche DataCite-Version. Bitte diese nutzen: http://schema.datacite.org/meta/kernel-4.6/metadata.xsd -->
-                    <identifier>oai:oral-history.digital:za</identifier> <!-- Ich hätte den Identifier vom Header nicht nochmal unter Ressource gepackt. Der primäre Identifier sollte dann eher die DOI oder die primäre Sprache des Archivs sein -->
+                    <identifier>oai:oral-history.digital:za</identifier> <!-- gehört nur in den Header, hier rausnehmen. Bei diesem Identifier handelt es sich nämlich um die ID des Metadatensatzes und nicht der eigentlichen Ressource. Die primäre ID der Ressource sollte dann die DOI oder die URL der Primär-Locale sein -->
                     <!-- <alternateIdentifiers>  --> <!-- Container-Element fehlt -->
                         <alternateIdentifier xml:lang="de" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/de</alternateIdentifier> <!-- xml:lang="de" liefert Validierungsfehler. Mehrsprachigkeit nicht vorgesehen. Dann einfach beides angeben nur ohne.  -->
                         <alternateIdentifier xml:lang="en" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/en</alternateIdentifier> <!-- Außerdem: alternateIdentifierType anstatt identfierType-->

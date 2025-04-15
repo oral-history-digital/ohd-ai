@@ -14,7 +14,7 @@
                 <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
                     xmlns:dc="http://purl.org/dc/elements/1.1/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/&#10;          http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-                    <dc:identifier>oai:oral-history.digital:za</dc:identifier> <!--rausnehmen. reicht, wenn es in source steht-->
+                    <dc:identifier>oai:oral-history.digital:za</dc:identifier> <!-- gehört nur in den Header (bzw. Source), hier rausnehmen. Bei diesem Identifier handelt es sich nämlich um die ID des Metadatensatzes und nicht der eigentlichen Ressource. Die primäre ID der Ressource sollte dann die DOI oder die URL der Primär-Locale sein -->
                     <dc:source>oai:oral-history.digital:za</dc:source> <!-- andere Reihenfolge. Nach Identifier-->
                     <dc:identifier xml:lang="de" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/de</dc:identifier> <!-- identfierType rausnehmen. Liefert Validierungsfehler-->
                     <dc:identifier xml:lang="en" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/en</dc:identifier>

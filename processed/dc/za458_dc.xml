@@ -15,10 +15,11 @@
                 <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
                     xmlns:dc="http://purl.org/dc/elements/1.1/"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/&#10;          http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-                    <dc:identifier>oai:za:za458</dc:identifier> <!-- Ich hätte den Identifier vom Header nicht nochmal hierhin gepackt. Der primäre Identifier im <metadata>-Container sollte dann eher die DOI oder die primäre Sprache des Archivs sein -->
+                    <dc:identifier>oai:za:za458</dc:identifier> <!-- gehört nur in den Header (bzw. Source), hier rausnehmen. Bei diesem Identifier handelt es sich nämlich um die ID des Metadatensatzes und nicht der eigentlichen Ressource. Die primäre ID der Ressource sollte dann die DOI oder die URL der Primär-Locale sein -->
                     <dc:identifier xml:lang="de" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/de/interviews/za458</dc:identifier> <!-- identiferType rausnehmen. Liefert Validierungsfehler-->
                     <dc:identifier xml:lang="en" identfierType="URL">https://archiv.zwangsarbeit-archiv.de/en/interviews/za458</dc:identifier>
                     <dc:identifier identfierType="DOI">10.17169/za.za458</dc:identifier>
+                    <!-- <dc:source>oai:za:za458</dc:source> -->
                     <dc:title xml:lang="de">Narratives video-Interview mit René Š. vom 13.07.2005</dc:title>
                     <dc:title xml:lang="en">Narrative video interview with René Š. from 13.07.2005</dc:title>
                     <dc:creator xml:lang="de">René Š.</dc:creator>
@@ -29,7 +30,7 @@
                     <!-- <dc:contributor xml:lang="de">Freie Universität Berlin, Universitätsbibliothek der Freien Universität Berlin</dc:contributor> -->
 					<!-- <dc:contributor xml:lang="en">Freie Universität Berlin, Universitätsbibliothek der Freien Universität Berlin</dc:contributor> -->
                     <dc:date>13.07.2005</dc:date> <!-- Format YYYY-MM-DD, also 2005-07-13-->
-                    <dc:type>video</dc:type> <!-- <dc:type>interview</dc:type> -->
+                    <dc:type>video</dc:type>
                     <dc:format>video/mp4</dc:format>
                     <dc:language>cze</dc:language>
                     <dc:subject xml:lang="de">Nationalsozialismus</dc:subject>
